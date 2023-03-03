@@ -46,10 +46,7 @@ public class ItemController {
 			logger.info("Item not created.");
 			return ResponseEntity.badRequest().body(new ErrorResponse("Invalid request. Name, description, or price is missing."));
 		}
-		Item item = new Item();
-		item.setName(createItemRequest.getName());
-		item.setPrice(createItemRequest.getPrice());
-		item.setDescription(createItemRequest.getDescription());
+		Item item = new Item(createItemRequest.getName(),createItemRequest.getDescription(),createItemRequest.getPrice());
 		item = itemRepository.save(item);
 		logger.info("Item created successfully!");
 		return ResponseEntity.ok(item);
