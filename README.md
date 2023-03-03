@@ -78,3 +78,9 @@ and that should, if those are valid credentials, return a 200 OK with an Authori
 
 ## Testing
 You must implement unit tests demonstrating at least 80% code coverage.
+
+## Implementation Details
+Once you create and login via postman, collect your JWT token and get access in Swagger.
+API Documentation is available at http://localhost:8081/swagger-ui.html
+Screenshots of Splunk and Jenkins are included in screenshot folder.
+Splunk script and Jenkins console output are also included.
