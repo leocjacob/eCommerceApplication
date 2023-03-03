@@ -1,0 +1,47 @@
+; Total Success Rate of CreateUser
+index=ecomm_api properties.action="CreateUser"
+| stats count as total
+| eval type="total"
+| append [search index=ecomm_api properties.action="CreateUser" properties.status="success"
+  | stats count as total_success
+  | eval type="success"]
+    | stats sum(total) as total, sum(total_success) as total_success
+    | eval success_percentage = round((total_success / total) * 100, 2)
+| table success_percentage
+
+; Total Success Rate of CreateOrder
+index=ecomm_api properties.action="CreateOrder"
+| stats count as total
+| eval type="total"
+| append [search index=ecomm_api properties.action="CreateOrder" properties.status="success"
+  | stats count as total_success
+  | eval type="success"]
+    | stats sum(total) as total, sum(total_success) as total_success
+    | eval success_percentage = round((total_success / total) * 100, 2)
+| table success_percentage
+
+; Success Rate of CreateUser Per Minute
+; Success percentage over time with a span of 1 minute
+index=ecomm_api properties.action="CreateUser"
+| timechart span=1m count as total
+| eval type="total"
+| append [search index=ecomm_api properties.action="CreateUser" properties.status="success"
+  | timechart span=1m count as total_success
+  | eval type="success"]
+    | timechart span=1m  sum(total) as total, sum(total_success) as total_success
+    | eval success_percentage = round((total_success / total) * 100, 2)
+| table success_percentage
+| fillnull value=0
+
+; Success Rate of CreateOrder Per Minute
+; Success percentage over time with a span of 1 minute
+index=ecomm_api properties.action="CreateOrder"
+| timechart span=1m count as total
+| eval type="total"
+| append [search index=ecomm_api properties.action="CreateOrder" properties.status="success"
+  | timechart span=1m count as total_success
+  | eval type="success"]
+    | timechart span=1m  sum(total) as total, sum(total_success) as total_success
+    | eval success_percentage = round((total_success / total) * 100, 2)
+| table success_percentage
+| fillnull value=0

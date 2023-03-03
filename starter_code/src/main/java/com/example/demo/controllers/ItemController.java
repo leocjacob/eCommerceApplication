@@ -2,12 +2,15 @@ package com.example.demo.controllers;
 
 import java.util.List;
 
+import com.example.demo.model.persistence.User;
+import com.example.demo.model.persistence.response.ErrorResponse;
+import com.example.demo.model.requests.CreateItemRequest;
+import com.example.demo.model.requests.CreateUserRequest;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import com.example.demo.model.persistence.Item;
 import com.example.demo.model.persistence.repositories.ItemRepository;
@@ -15,7 +18,7 @@ import com.example.demo.model.persistence.repositories.ItemRepository;
 @RestController
 @RequestMapping("/api/item")
 public class ItemController {
-
+	private static final Logger logger = LoggerFactory.getLogger(ItemController.class);
 	@Autowired
 	private ItemRepository itemRepository;
 	
@@ -36,5 +39,21 @@ public class ItemController {
 				: ResponseEntity.ok(items);
 			
 	}
+
+	@PostMapping("/create")
+	public ResponseEntity<?> createItem(@RequestBody CreateItemRequest createItemRequest) {
+		if (createItemRequest.getName().isEmpty() || createItemRequest.getDescription().isEmpty() || createItemRequest.getPrice() == null) {
+			logger.info("Item not created.");
+			return ResponseEntity.badRequest().body(new ErrorResponse("Invalid request. Name, description, or price is missing."));
+		}
+		Item item = new Item();
+		item.setName(createItemRequest.getName());
+		item.setPrice(createItemRequest.getPrice());
+		item.setDescription(createItemRequest.getDescription());
+		item = itemRepository.save(item);
+		logger.info("Item created successfully!");
+		return ResponseEntity.ok(item);
+	}
+
 	
 }
