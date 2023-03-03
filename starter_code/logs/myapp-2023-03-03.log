@@ -81,3 +81,57 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 00:58:22.086 [main] INFO  c.e.demo.SareetaApplicationTests - Started SareetaApplicationTests in 6.659 seconds (JVM running for 8.284) 
 00:58:22.341 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
 00:58:22.343 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+03:05:23.295 [main] WARN  org.testng.TestRunner - Support to run JUnit tests using TestNG stands deprecated and will be removed in future versions. You can now use the JUnit5 TestNG engine to run both JUnit and TestNG tests. For more information refer to https://github.com/junit-team/testng-engine . 
+03:05:25.094 [main] INFO  c.e.demo.SareetaApplicationTests - Starting SareetaApplicationTests on Leos-MacBook-Pro.local with PID 24272 (started by leocj in /Users/leocj/Downloads/coursework-4/local/eCommerceApplication/starter_code) 
+03:05:25.098 [main] INFO  c.e.demo.SareetaApplicationTests - No active profile set, falling back to default profiles: default 
+03:05:31.044 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+03:05:31.527 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.18.Final 
+03:05:32.265 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+03:05:32.597 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+03:05:33.108 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+03:05:33.150 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+03:05:34.775 [main] INFO  org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.example.demo.model.persistence.Item (class must be instantiated by Interceptor) 
+03:05:35.801 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+03:05:41.416 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+03:05:45.597 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+03:05:45.839 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+03:05:46.087 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+03:05:46.914 [main] INFO  c.e.demo.SareetaApplicationTests - Started SareetaApplicationTests in 22.289 seconds (JVM running for 27.409) 
+03:05:47.946 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+03:05:47.953 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+03:19:42.573 [main] WARN  org.testng.TestRunner - Support to run JUnit tests using TestNG stands deprecated and will be removed in future versions. You can now use the JUnit5 TestNG engine to run both JUnit and TestNG tests. For more information refer to https://github.com/junit-team/testng-engine . 
+03:19:43.757 [main] INFO  c.e.demo.SareetaApplicationTests - Starting SareetaApplicationTests on Leos-MacBook-Pro.local with PID 33941 (started by leocj in /Users/leocj/Downloads/coursework-4/local/eCommerceApplication/starter_code) 
+03:19:43.760 [main] INFO  c.e.demo.SareetaApplicationTests - No active profile set, falling back to default profiles: default 
+03:19:46.997 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+03:19:47.152 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.18.Final 
+03:19:47.436 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+03:19:47.599 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+03:19:47.898 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+03:19:47.933 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+03:19:48.786 [main] INFO  org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.example.demo.model.persistence.Item (class must be instantiated by Interceptor) 
+03:19:49.099 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+03:19:51.492 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+03:19:53.287 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+03:19:53.369 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+03:19:53.447 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+03:19:54.184 [main] INFO  c.e.demo.SareetaApplicationTests - Started SareetaApplicationTests in 10.749 seconds (JVM running for 13.78) 
+03:19:55.066 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+03:19:55.072 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+03:21:22.271 [main] WARN  org.testng.TestRunner - Support to run JUnit tests using TestNG stands deprecated and will be removed in future versions. You can now use the JUnit5 TestNG engine to run both JUnit and TestNG tests. For more information refer to https://github.com/junit-team/testng-engine . 
+03:21:24.327 [main] INFO  c.e.demo.SareetaApplicationTests - Starting SareetaApplicationTests on Leos-MacBook-Pro.local with PID 34226 (started by leocj in /Users/leocj/Downloads/coursework-4/local/eCommerceApplication/starter_code) 
+03:21:24.343 [main] INFO  c.e.demo.SareetaApplicationTests - No active profile set, falling back to default profiles: default 
+03:21:28.714 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+03:21:28.955 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.18.Final 
+03:21:29.440 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+03:21:29.685 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+03:21:30.232 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+03:21:30.298 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+03:21:31.687 [main] INFO  org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.example.demo.model.persistence.Item (class must be instantiated by Interceptor) 
+03:21:32.321 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+03:21:34.389 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+03:21:35.603 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+03:21:35.632 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+03:21:35.678 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+03:21:35.922 [main] INFO  c.e.demo.SareetaApplicationTests - Started SareetaApplicationTests in 11.977 seconds (JVM running for 15.719) 
+03:21:36.234 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+03:21:36.246 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
