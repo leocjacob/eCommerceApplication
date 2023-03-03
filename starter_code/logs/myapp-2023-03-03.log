@@ -1,0 +1,83 @@
+00:53:08.993 [main] INFO  com.example.demo.SareetaApplication - Starting SareetaApplication on Leos-MacBook-Pro.local with PID 10862 (/Users/leocj/Downloads/coursework-4/local/eCommerceApplication/starter_code/target/classes started by leocj in /Users/leocj/Downloads/coursework-4/local/eCommerceApplication/starter_code) 
+00:53:09.012 [main] INFO  com.example.demo.SareetaApplication - No active profile set, falling back to default profiles: default 
+00:53:10.559 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+00:53:10.560 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+00:53:10.561 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37] 
+00:53:10.653 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+00:53:10.869 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+00:53:10.922 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.18.Final 
+00:53:11.150 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+00:53:11.250 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+00:53:11.545 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+00:53:11.571 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+00:53:12.133 [main] INFO  org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.example.demo.model.persistence.Item (class must be instantiated by Interceptor) 
+00:53:12.295 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+00:53:13.167 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+00:53:13.673 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+00:53:13.700 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+00:53:13.703 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+00:53:13.709 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"] 
+00:53:13.709 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat] 
+00:53:13.717 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"] 
+00:53:13.717 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"] 
+00:53:13.726 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+ 
+00:54:34.353 [main] INFO  com.example.demo.SareetaApplication - Starting SareetaApplication on Leos-MacBook-Pro.local with PID 11011 (/Users/leocj/Downloads/coursework-4/local/eCommerceApplication/starter_code/target/classes started by leocj in /Users/leocj/Downloads/coursework-4/local/eCommerceApplication/starter_code) 
+00:54:34.382 [main] INFO  com.example.demo.SareetaApplication - No active profile set, falling back to default profiles: default 
+00:54:36.746 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"] 
+00:54:36.758 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+00:54:36.759 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37] 
+00:54:36.932 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+00:54:37.270 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+00:54:37.402 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.18.Final 
+00:54:37.717 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+00:54:37.916 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+00:54:38.272 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+00:54:38.300 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+00:54:39.034 [main] INFO  org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.example.demo.model.persistence.Item (class must be instantiated by Interceptor) 
+00:54:39.233 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+00:54:40.177 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+00:54:40.657 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"] 
+00:54:40.679 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+00:54:40.710 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+00:54:40.738 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+00:54:40.958 [main] INFO  com.example.demo.SareetaApplication - Started SareetaApplication in 7.105 seconds (JVM running for 9.356) 
+00:55:04.372 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+00:55:14.036 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+00:55:14.047 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+00:55:40.207 [main] INFO  c.e.demo.controllers.ItemController - Item created successfully! 
+00:55:40.520 [main] INFO  c.e.demo.controllers.UserController - User Created Successfully! CreateUser
+00:55:40.544 [main] INFO  c.e.demo.controllers.CartController - Cart Updated. 
+00:55:40.653 [main] INFO  c.e.demo.controllers.OrderController - User not found in database! CreateOrder
+00:55:40.666 [main] INFO  c.e.demo.controllers.OrderController - User not found in database! 
+00:55:40.671 [main] INFO  c.e.demo.controllers.OrderController - Order submitted successfully! CreateOrder
+00:58:14.900 [main] WARN  org.testng.TestRunner - Support to run JUnit tests using TestNG stands deprecated and will be removed in future versions. You can now use the JUnit5 TestNG engine to run both JUnit and TestNG tests. For more information refer to https://github.com/junit-team/testng-engine . 
+00:58:15.606 [main] INFO  c.e.demo.SareetaApplicationTests - Starting SareetaApplicationTests on Leos-MacBook-Pro.local with PID 11400 (started by leocj in /Users/leocj/Downloads/coursework-4/local/eCommerceApplication/starter_code) 
+00:58:15.608 [main] INFO  c.e.demo.SareetaApplicationTests - No active profile set, falling back to default profiles: default 
+00:58:18.515 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+00:58:18.759 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.18.Final 
+00:58:19.084 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+00:58:19.188 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+00:58:19.434 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+00:58:19.455 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+00:58:20.003 [main] INFO  org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.example.demo.model.persistence.Item (class must be instantiated by Interceptor) 
+00:58:20.186 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+00:58:21.217 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+00:58:21.900 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed 
+00:58:21.918 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+00:58:21.939 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references 
+00:58:22.086 [main] INFO  c.e.demo.SareetaApplicationTests - Started SareetaApplicationTests in 6.659 seconds (JVM running for 8.284) 
+00:58:22.341 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+00:58:22.343 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
